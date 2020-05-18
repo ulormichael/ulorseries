@@ -1,0 +1,202 @@
+/* style.css */
+
+html,
+body {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* cover */
+
+/* Bootstrap tweak*/
+.nav-container {
+	display        : flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 568px) {
+	.nav-container {
+		flex-direction: column;
+	}
+
+	
+}
+
+.logo {
+	display  : inline-block;
+	max-width: 40px;
+	margin   : 0;
+	display: flex;
+}
+
+.nav-items {
+	margin   : 0;
+	display  : inline-block;
+	max-width: 300px;
+}
+
+@media (max-width: 568px) {
+	.nav-items {
+		display: none
+	}
+
+	
+}
+
+.link-list {
+	display  : inline-block;
+	max-width: 300px;
+	margin   : 0;
+}
+
+@media (max-width: 568px) {
+	.link-list {
+		display  : block;
+		max-width: 100px;
+	}
+}
+
+.link-item {
+	display     : inline-block;
+	padding-left: 1rem;
+	position    : relative;
+	overflow    : hidden;
+}
+
+@media (max-width: 568px) {
+	.link-item {
+		display     : block;
+		padding-left: 0;
+		position    : relative;
+		overflow    : hidden;
+	}
+}
+
+.styled-link {
+	display     : inline-block;
+	padding-left: 10rem;
+}
+
+@media (max-width: 568px) {
+		.styled-link {
+			display     : block;
+			padding-left: 0;
+		}
+	}
+}
+
+#cover {
+	background     : #222 url('images/Grunge_04.jpg') center center no-repeat;
+	background-size: cover;
+	color          : white;
+	height         : 100%;
+	text-align     : center;
+	display        : flex;
+	align-items    : center;
+}
+
+#cover-caption {
+	width: 100%;
+
+}
+
+.card {
+	padding: 0.625rem;
+}
+
+.section-content {
+	padding: 5rem 0;
+}
+
+#about {
+	background: url('images/04.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.about-text {
+	background: rgba(0, 0, 0, 0.8);
+	color     : white;
+	padding   : 1.875rem;
+}
+
+#contact {
+	background: url('images/03.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.contact-text {
+	background: rgba(0, 0, 0, 0.8);
+	color     : white;
+	padding   : 1.875rem;
+}
+
+#footer-main {
+	background: #222;
+	color     : white;
+	font-size : 1rem;
+	padding   : 2.5rem 0;
+	text-align: justify;
+
+}
+
+.fab {
+	font-size: 1.25rem;
+	padding: 5px;
+}
+
+.social {
+	display: flex;
+}
+
+.colon {
+	padding-left: 1.25rem;
+}
+
+/*---Media Queries---*/
+
+@media screen and (max-width:991px) {
+	.feature-content {
+		display    : flex;
+		align-items: center;
+	}
+
+}
+
+@media screen and (max-width:576px) {
+	.feature-content {
+		display    : flex;
+		align-items: center;
+	}
+
+	.nav1 {
+		float: left;
+		margin-right: 0;
+		margin-left: 10px;
+		display    : flex;
+	}
+
+	.logo {
+	display  : inline-block;
+	max-width: 40px;
+	margin   : 0;
+	display: flex;
+	padding: 0 2px 2px 3px;
+}
+
+.fab {
+	font-size: 1rem;
+	padding: 5px;
+}
+
+.social {
+	display: flex;
+}
+
+.col-sm-3{
+	padding: 1rem;
+}
+
+}
